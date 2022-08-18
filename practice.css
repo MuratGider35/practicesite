@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav.nav-top {
+  background-image: linear-gradient(
+    to right,
+    rgb(167, 145, 159),
+    rgba(172, 4, 172, 0.8)
+  );
+}
+.nav-top img {
+  width: 50px;
+}
+.sign-in {
+  display: inline-block;
+  float: right;
+  padding: 1.5rem 1rem;
+  color: white;
+  font-weight: 700;
+}
+.sign-in a {
+  text-decoration: none;
+  color: white;
+}
+.sign-in a:hover {
+  color: black;
+}
+.clearfix {
+  clear: both;
+}
+.nav-main {
+  background-color: #ffaa53;
+  height: 12vh;
+  text-align: center;
+  font-family: "DynaPuff", cursive;
+  font-size: 1.1rem;
+  padding: 2rem;
+  position: sticky;
+  top: 0%;
+}
+.nav-main a {
+  text-decoration: none;
+  color: black;
+  margin-right: 2rem;
+}
+.nav-main a:hover {
+  color: white;
+}
+main {
+  padding: 2rem;
+  text-align: justify;
+}
+.slack {
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  background-color: red;
+  font-size: 2rem;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.2rem;
+}
+
+.slack i:hover {
+  color: black;
+  font-weight: 600;
+}
